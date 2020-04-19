@@ -19,12 +19,12 @@ CatBot - это бот для Telegram созданный с целью дела
 
 ..code-block:: python
 
-PROXY = {'proxy_url':'socks5://ВАШ_SOCKS5_ПРОКСИ:1080',
-        'urllib3_proxy_kwargs':{'username':'ЛОГИН', 'password':'ПАРОЛЬ'}}
+	PROXY = {'proxy_url':'socks5://ВАШ_SOCKS5_ПРОКСИ:1080',
+        	'urllib3_proxy_kwargs':{'username':'ЛОГИН', 'password':'ПАРОЛЬ'}}
 
-API_KEY = "API ключ, который вы получили у BotFather"
+	API_KEY = "API ключ, который вы получили у BotFather"
 
-USER_EMOJI = [':smiley_cat:', ':smiling_imp:', ':panda_face:', ':dog:']
+	USER_EMOJI = [':smiley_cat:', ':smiling_imp:', ':panda_face:', ':dog:']
 
 Запуск 
 ---------
