@@ -30,7 +30,7 @@ CatBot - это бот для Telegram созданный с целью дела
 ---------
 В активированном виртуальном окружении выполните:
 
-.. code-bloke:: text
+.. code-block:: text
 
 	python bot.py # Для Windows
 
