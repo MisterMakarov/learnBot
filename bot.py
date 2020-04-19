@@ -9,7 +9,6 @@ logging.basicConfig(format='%(asctime)s - %(levelname)s - %(message)s',
                     level=logging.INFO,
                     filename='bot.log'
                     )
-#settings.PROXY
 
 def main():
     mybot = Updater(settings.API_KEY, request_kwargs=settings.PROXY)
