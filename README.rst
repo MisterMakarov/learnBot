@@ -6,7 +6,8 @@ CatBot - это бот для Telegram созданный с целью дела
 Установка 
 ---------
 Создайте виртуальное окружение и активируйте его. Потом в виртуальном окружении выполните:
-..code-block: text
+..code-block:: text
+
 	pip install -r requirements.txt
 
 Положите картинки с котиками в папку images. Название должно начинаться с cat, а заканчиваться .jpg например cat2523452.jpg
@@ -15,6 +16,7 @@ CatBot - это бот для Telegram созданный с целью дела
 ---------
 Создайте файл settings.py и добавьте туда следующие настройки:
 ..code-block:: python
+
 PROXY = {'proxy_url':'socks5://ВАШ_SOCKS5_ПРОКСИ:1080',
         'urllib3_proxy_kwargs':{'username':'ЛОГИН', 'password':'ПАРОЛЬ'}}
 
@@ -26,5 +28,7 @@ USER_EMOJI = [':smiley_cat:', ':smiling_imp:', ':panda_face:', ':dog:']
 ---------
 В активированном виртуальном окружении выполните:
 .. code-bloke:: text
+
 	python bot.py # Для Windows
+	
 	python3 bot.py # Для Linux и Mac
